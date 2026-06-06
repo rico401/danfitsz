@@ -1,0 +1,146 @@
+*{
+  margin:0;
+  padding:0;
+ 
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#edf2f5dd ;
+ 
+}
+
+/* TOP BAR */
+
+.topbar{
+  width:100%;
+  height:15%;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#ffffff;
+}
+
+.bowlby-one-sc-regular a {
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 45px;
+  font-weight: 350;
+  font-style: normal;
+  text-decoration: none;
+  margin-left: 80%;
+  color: #000;
+
+}
+
+.top-links{
+  display:flex;
+  gap: 20px;
+  margin-right:6%;
+  font-size: 13px;
+  font-weight: bold;
+   
+  
+}
+
+.top-links a{
+  
+ text-decoration: underline;
+  
+  color: #807c7c;
+ 
+}
+
+.pageflex{
+  display: flex;
+}
+
+.back{
+  position: relative;
+  z-index: 1; 
+  width: 50%;
+}
+
+
+/* CONTAINER */
+
+.login-container{
+   position: relative; 
+   z-index: 2; 
+  
+width: 130%;
+height:50%;
+background:#ffffff;
+  margin-left: 66%;
+  margin-top: 6%;
+  padding: 10%;
+ 
+border-radius: 10px;
+box-shadow:
+  0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+.login-container h2{
+    font-weight: bolder;
+    font-size: larger;
+  
+}
+
+
+
+.field label {
+  display: block;
+  font-weight: bold;
+  margin-top: 5%;
+  
+  font-size: 14px;
+  color: #000000f7;
+}
+
+.field input {
+  
+  width: 100%;
+  line-height: 3;
+ 
+  font-size: 15px;
+
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  
+  transition: border-color 0.2s ease-in-out ;  
+  
+}
+input:hover {
+  border-color: #007bff;
+}
+
+input:hover, input:focus {
+  border-color: #007bff;
+}
+
+.options{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 3%;
+
+}
+
+.options a{
+  text-decoration: none;
+  color: #807c7c;
+}
+
+input[type="submit"] {
+  display: block;
+
+  height: 60px;
+  width: 101%;
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: #004cffcb;
+  color: #fff;
+  border: none;
+}
